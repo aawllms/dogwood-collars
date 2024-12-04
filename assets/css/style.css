@@ -1,0 +1,80 @@
+body {
+  background-color: #964807;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(4, 122, 129);
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h4 {
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+ul {
+  text-align: right;
+  color: #ffffff;
+}
+p {
+  text-align: center;
+  font-size: medium;
+}
+
+li {
+  display: block;
+  list-style-type: none;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+}
+a {
+  text-align: right;
+  font-size: xx-large;
+}
+img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+#about {
+  border: rgb(4, 122, 129);
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: rgb(96, 52, 7);
+}
+
+.largephoto {
+  border: 10px ridge rgb(2, 96, 124);
+  background-color: rgb(245, 237, 231);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.largephoto img {
+  width: 30%;
+}
+
+.largephoto {
+  font: small-caps bold 1.2rem sans-serif;
+  text-align: center;
+}
+#testimonial {
+  border: #090808;
+  border-width: 10px;
+}
+.instagram-media {
+  text-align: center;
+}
